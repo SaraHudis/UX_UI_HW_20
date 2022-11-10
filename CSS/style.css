@@ -21,7 +21,7 @@ h3 {
 }
 
 .navbar {
-    position: fixed;
+    position: relative;
     width: 100%;
     display: flex;
     background-color:#151515;
