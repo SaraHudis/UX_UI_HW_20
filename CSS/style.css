@@ -21,10 +21,10 @@ h3 {
 }
 
 .navbar {
-    position:absolute;
+    position:fixed;
     width: 100%;
-    display: flex;
     background-color:#151515;
+    background-size: cover;
   }
 
   .navbar-nav {
@@ -32,16 +32,12 @@ h3 {
     margin-right: 0 !important;
   }
   .navbar-brand img {
-    display: flex;
-    flex-direction: column;
     justify-content: right;
     margin: 2%;
   }
 
   .nav-item {
     margin: 0px 15px;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
   }
  
@@ -67,7 +63,6 @@ h3 {
     justify-content: center;
   }
   
-  /* Jumbotron copy */
   .jumboCopy {
     width: 70%;
     min-width: 500px;
@@ -75,6 +70,10 @@ h3 {
     color: white;
     text-align: center;
   }
+
+.list-group {
+    background-color: #984df7;
+}
   
 
 .btn {
@@ -94,15 +93,13 @@ h3 {
 
 footer {
     background-color:#151515;
-      display: flex;
       width: 100%;
       color: white;
       display: inline-block;
       vertical-align: top;
       }
   
-      .socialMedia {
-          display: flex;
+ .socialMedia {
           width: 100%;
           flex-direction:row;
           justify-content: center;
