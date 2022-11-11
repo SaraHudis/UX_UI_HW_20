@@ -21,7 +21,7 @@ h3 {
 }
 
 .navbar {
-    position: relative;
+    position:absolute;
     width: 100%;
     display: flex;
     background-color:#151515;
@@ -44,12 +44,18 @@ h3 {
     flex-direction: row;
     justify-content: center;
   }
+ 
+.nav-link {
+    color: #f2f2f2;
+}
+
+.nav-link:hover {
+    background-color: #BE8BFF;
+    color: #151515;
+  }
 
   .customNav a {
     color: white !important;
-  }
-  .navCTA {
-    font-size: 15px;
   }
   
 /* Jumbotron  */
@@ -84,3 +90,41 @@ h3 {
 .btn:hover {
   background-color: #BE8BFF;
 }
+
+
+footer {
+    background-color:#151515;
+      display: flex;
+      width: 100%;
+      color: white;
+      display: inline-block;
+      vertical-align: top;
+      }
+  
+      .socialMedia {
+          display: flex;
+          width: 100%;
+          flex-direction:row;
+          justify-content: center;
+          padding: 15px;
+      }
+  
+  .socialMedia > img {
+      padding: 15px;
+  }
+  
+  .bottomMenu {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      justify-content: center;
+  }
+          
+  .bottomMenu > p {
+      padding: 10px;
+          }
+  
+    .bottomMenu > p:hover{
+        color: #BE8BFF;
+    }
+           
